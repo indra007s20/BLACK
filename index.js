@@ -751,7 +751,7 @@ case 'filmanime':
                })
            break
           case 'creator':
-            client.sendContact(from, '6285722553839@c.us')
+            client.sendContact(from, '551195945217@c.us')
             break
       case 'tts':
             if (args.length === 1) return client.reply(from, 'Enviar comando *! Tts [id, en, jp, ar] [texto] *, por exemplo *! Tts id olá todos*')
