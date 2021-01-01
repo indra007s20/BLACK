@@ -743,7 +743,7 @@ case 'filmanime':
            case 'ytmp3':
            mp3()
                .then(buffer => {
-                   client.sendMessage(id, '⏳AGUARDE⏳, MessageType.text)
+                   client.sendMessage(id, '⏳AGUARDE⏳', MessageType.text)
                    client.sendMessage(id, buffer, MessageType.image)
                })
                .catch(err => {
