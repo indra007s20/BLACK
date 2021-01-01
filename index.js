@@ -319,7 +319,7 @@ client.on('message-new', async (m) => {
                    console.log(err)
                })
            break
-       case 'pict':
+       case 'foto':
            switch (value) {
                case 'cewek':
                    cewePict()
@@ -342,7 +342,7 @@ client.on('message-new', async (m) => {
                        })
                    break
                default:
-                   client.sendMessage(id, 'Repita com! Pict meninas / meninos \ n \ nPor exemplo :! pict caras', MessageType.text)
+                   client.sendMessage(id, 'REPITA COM !foto cewek ou cowok', MessageType.text)
                    break
            }
            break
@@ -673,7 +673,7 @@ case 'filmanime':
            case 'map':
            map()
                .then(buffer => {
-                   client.sendMessage(id, '[ESPERE UM POUCO...', MessageType.text)
+                   client.sendMessage(id, '⏳AGUARDE⏳', MessageType.text)
                    client.sendMessage(id, buffer, MessageType.image)
                })
                .catch(err => {
@@ -683,7 +683,7 @@ case 'filmanime':
            case 'waifu':
            waifu()
                .then(buffer => {
-                   client.sendMessage(id, '[ESPERE UM POUCO...', MessageType.text)
+                   client.sendMessage(id, '⏳AGUARDE⏳', MessageType.text)
                    client.sendMessage(id, buffer, MessageType.image)
                })
                .catch(err => {
@@ -795,7 +795,7 @@ case 'filmanime':
                         await client.sendImageAsSticker(from, `data:image/gif;base64,${gif.toString('base64')}`)
                     })
                 } else (
-                    client.reply(from, '[❗] Envie um vídeo com a legenda *! StickerGif * máximo de 10 segundos!', id)
+                    client.reply(from, '[❗] Envie um vídeo com a legenda *!StickerGif * máximo de 10 segundos!', id)
                 )
             }
             break     
