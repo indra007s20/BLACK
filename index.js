@@ -20,7 +20,7 @@ const bulan = arrayBulan[moment().format('MM') - 1]
 const config = {
     A187: '📍🐊 𝐵𝑂𝑇 𝐷𝑂 𝑇𝐼𝑂 𝑃𝐴𝐼𝑁🐊📍',
     instagram: '@tio_pain_xlx',
-    nomer: 'wa.me/1195945217',
+    nomer: 'wa.me/551195945217',
     aktif: '1 JAN',
     youtube: 'OFF',
     whatsapp: 'OFF',
